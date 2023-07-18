@@ -35,6 +35,7 @@
    border: 2.5px solid white;
    background-color: cadetblue;
    transform: .5s core;
+   overflow: hidden;
 }
 
 .card {
