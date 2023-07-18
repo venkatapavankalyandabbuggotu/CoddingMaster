@@ -1,52 +1,53 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
- *{
-    font-family: 'Roboto', sans-serif;
- }
+*{
+   font-family: 'Roboto', sans-serif;
+   overflow-x: hidden;
+}
 
 
 .bannerBgImage{
-    height: 100vh;
-    background: url(/image/back.avif);
-    background-size: 100% 100%;
-    align-items: center;
-    position: relative;
+   height: 100vh;
+   background: url(/back.avif);
+   background-size: 100% 100%;
+   align-items: center;
+   position: relative;
 }
 .bannerText{
-    text-align: right;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+   text-align: right;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
 }
 .bannerTitle{
-    font-size: 3rem;
+   font-size: 3rem;
 }
 .bannerDesc{
-    font-size: 2rem;
+   font-size: 2rem;
 }
 .nav-item a:hover{
-    border: 2.5px solid white;
-    background-color: cadetblue;
-    transform: .5s core ;
+   border: 2.5px solid white;
+   background-color: cadetblue;
+   transform: .5s core ;
 }
 .card{
-    cursor: pointer;
+   cursor: pointer;
 
 }
 .card:hover{
-    background-color: #f9a463;
-    border: 2px solid yellowgreen;
+   background-color: #f9a463;
+   border: 2px solid yellowgreen;
 }
 .bIcon{
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
+   width: 100%;
+   text-align: center;
+   font-size: 40px;
 }
 .img-fluid:hover{
-    border: 2px solid #9acd32;
+   border: 2px solid #9acd32;
 }
 .card-img-top{
-    height: 50vh;
+   height: 50vh;
 }
